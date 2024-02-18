@@ -1,0 +1,148 @@
+section#work-exp{
+    padding-top: 100px;
+    flex-direction: row;
+    font-family: 'Space Mono', monospace;
+}
+
+div.exp-card{
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+div.exp-card:hover{
+    /* From https://css.glass */
+    background: rgba(116, 116, 116, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    transition: 1s;
+}
+
+div.card-left{
+    /* width: 30%; */
+    color: var(--font-white);
+    padding: 1em;
+}
+
+div.card-left>p.card-date{
+    margin-bottom: 0px;
+}
+
+div.card-right{
+    /* width: 70%; */
+    color: var(--font-white);
+    border: none;
+    text-align: justify;
+}
+div.card-right>div.ui.card>div.content{
+    /* padding-top: 0px; */
+    padding-bottom: 0px;
+    border-top: none;
+}
+
+div.card-right>div.ui.card>.content.description>#list{ 
+    padding-left: 0px;
+} 
+
+div.card-right>div.ui.card>.content.description>#list>li{ 
+    list-style: none; 
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+} 
+    
+div.card-right>div.ui.card>.content.description>#list>li::before{ 
+    /* content: "\00BB";  */
+    position: absolute;
+    left: 0px;
+    content: "▹";
+    color: var(--light-yellow);
+}
+
+div.card-right>.ui.card{
+    width: 100%;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+div.card-right>div.ui.card>div.content>div.header{
+    color: var(--light-yellow);
+}
+
+div.card-right>div.ui.card>.content.card-details{
+    padding-top: 0px;
+}
+
+div.card-right>div.ui.card>.content>.description{
+    color:var(--font-white);
+}
+
+/* div.card-right>div.ui.card>.extra{
+    color:var(--font-white);
+} */
+
+div.card-right>div.ui.card>.content.card-techs{
+    margin-top: 0px;
+    padding-left: calc(1em + 30px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.card-right>div.ui.card>.content.card-techs>div{
+    margin: 5px;
+    padding: 1px 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    color: var(--light-yellow);
+    font-weight: bold;
+    /* background-color: #ffe600; */
+
+    /* From https://css.glass */
+    background: rgba(253, 223, 140, 0.51);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    border: 1px solid rgba(253, 223, 140, 0.28);
+}
+
+
+@media only screen and (max-width: 1200px) {
+    /* section#about{
+        padding-top: 20px;
+        padding-left: 0px;
+    } */
+    section#work-exp{
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    div.card-left{
+        padding-left: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    div.card-right{
+        padding-left: 0px;
+    }
+    div.card-right>div.ui.card>div.content{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    div.card-right>div.ui.card>.content.card-techs{
+        padding-left: 0px;
+    }
+    div.exp-card:hover{
+        /* From https://css.glass */
+        background: none;
+        border-radius: none;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+    
+}   

@@ -1,0 +1,105 @@
+div.sidebar{
+    padding-top: 100px;
+    padding-left: 10px;
+    /* position: fixed; */
+}
+
+div.main-headers>h1{
+    margin: 0px;
+    color: var(--font-white);
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    letter-spacing: 0px;
+}
+
+div.main-headers>h2{
+    color: var(--font-white);
+    font-family: 'Space Mono', monospace;
+    margin: 0px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+div.main-headers>p{
+    color: var(--font-white);
+    font-family: 'Space Mono', monospace;
+    margin: 10px 0px;
+}
+
+/* Navbar Page List */
+
+.ui.vertical.tabular.menu .active.item {
+    background-color:  var(--light-yellow);;
+    border-radius: 0.28571429rem 0.28571429rem 0.28571429rem 0.28571429rem!important;
+}
+
+.ui.vertical.tabular.menu .item {
+    background: 0 0;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.ui.vertical.tabular.menu {
+    /* border-right: 1px solid  var(--light-yellow);; */
+    border: none;
+}
+
+.ui.tabular.menu .item {
+    font-family: 'Space Mono', monospace;
+    color: var(--font-white);
+}
+
+.ui.tabular.menu .item:hover {
+    color: var(--font-white);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    .ui.vertical.tabular.menu {
+        display: none;
+    }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 768px) {
+    .ui.vertical.tabular.menu {
+        display: none;
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (max-width: 768px) {
+    .ui.vertical.tabular.menu {
+        display: none;
+    }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (max-width: 992px) {
+    .ui.vertical.tabular.menu {
+        display: none;
+    }
+}    */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1200px) {
+    div.sidebar{
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .ui.vertical.tabular.menu {
+        display: none;
+        
+    }
+}   
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    div.sidebar{
+        position:fixed;
+    }
+}

@@ -1,0 +1,22 @@
+section#about{
+    padding-left: 1em;
+    padding-top: 105px;
+    font-family: 'Space Mono', monospace;
+    text-align: justify;
+}
+
+section#about>p{
+    color: var(--font-white);
+    font-size: 16px;
+}
+
+section#about>p>span{
+    color: var(--light-yellow);
+}
+
+@media only screen and (max-width: 1200px) {
+    section#about{
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+}   

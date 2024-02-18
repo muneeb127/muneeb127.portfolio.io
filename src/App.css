@@ -1,0 +1,32 @@
+/* 
+    Color Palette
+    Charcoal: #232423
+    Yellow: #fcba03
+    Light Yellow: #e6c365
+    font color: #e5e7eb
+*/
+
+:root {
+    --page-background : #000000;
+    --light-yellow: rgb(253, 223, 140);
+    --font-white: #e5e7eb;
+    --highlight-color: null;
+}
+
+
+body, html{
+    font-family: 'Space Mono', monospace;
+    margin: 0px;
+    padding: 0px;
+    color:var(--font-white);
+    scroll-behavior: smooth;
+}
+
+.app{
+    width: 100%;
+    /* padding-top: 100px; */
+    
+    background: var(--page-background); 
+    background: -webkit-linear-gradient(to right, rgb(82, 74, 60), #161A30);
+    background: linear-gradient(to right, #524a3c, #161A30); 
+}
