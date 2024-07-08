@@ -1,13 +1,14 @@
 section#about{
     padding-left: 1em;
     padding-top: 105px;
-    font-family: 'Space Mono', monospace;
-    text-align: justify;
+    /* font-family: 'Space Mono', monospace; */
+    font-family: "Inter", sans-serif;
 }
 
 section#about>p{
     color: var(--font-white);
-    font-size: 16px;
+    font-size: 1em;
+    font-weight: 300;
 }
 
 section#about>p>span{

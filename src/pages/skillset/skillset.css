@@ -1,0 +1,93 @@
+section#skillset{
+    padding-top: 70px;
+    flex-direction: row;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+
+div.skill-card{
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+div.skill-card:hover{
+    /* From https://css.glass */
+    background: rgba(116, 116, 116, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    transition: 1s;
+}
+
+
+div.skill-left{
+    color: var(--font-white);
+    padding: 1em;
+    font-size: 1em;
+}
+
+div.skill-left>p.skill-type{
+    padding-top: 20px;
+}
+
+div.skill-right{
+    color: var(--font-white);
+    border: none;
+}
+
+div.skill-right>div.ui.card>div.content>div.header{
+    font-size: 1.4em;
+    color: var(--light-yellow);
+}
+
+div.skill-right>div.ui.card>div.content{
+    padding-bottom: 0px;
+    border-top: none;
+}
+
+div.skill-right>.ui.card{
+    width: 100%;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+div.skill-right>div.ui.card>.content.card-skills>div>img.skill-logo{
+    /* padding-top: 10px; */
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+div.skill-right>div.ui.card>.content>.description{
+    color:var(--font-white);
+}
+
+div.skill-right>div.ui.card>.content.card-skills{
+    /* margin-top: 0px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* div.skill-right>div.ui.card>.content.card-skills>div{
+    margin: 5px;
+    padding: 1px 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    color: var(--light-yellow);
+    font-weight: bold;
+
+    background: rgba(253, 223, 140, 0.51);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    border: 1px solid rgba(253, 223, 140, 0.28);
+} */

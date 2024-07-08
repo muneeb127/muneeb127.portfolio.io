@@ -10,7 +10,7 @@ const WorkExp = () => {
        <Box sx={{ flexGrow: 1 }} className="exp-card">
         <Grid container spacing={2}>
           <Grid xs={12} sm={12} md={12} lg={3} className='card-left'>
-            <p className='card-date'>10.2022 —— Present</p>
+            <p className='card-date'>10.2022 - Present</p>
             <p>Rostock, Germany</p>
           </Grid>
           <Grid xs={12} sm={12} md={12} lg={9} className='card-right'>
@@ -50,7 +50,7 @@ const WorkExp = () => {
       <Box sx={{ flexGrow: 1 }} className="exp-card">
         <Grid container spacing={2}>
           <Grid xs={12} sm={12} md={12} lg={3} className='card-left'>
-            <p className='card-date'>10.2022 —— 04.2023</p>
+            <p className='card-date'>10.2022 - 04.2023</p>
             <p>Rostock, Germany</p>
           </Grid>
           <Grid xs={12} sm={12} md={12} lg={9} className='card-right'>
@@ -85,7 +85,7 @@ const WorkExp = () => {
       <Box sx={{ flexGrow: 1 }} className="exp-card">
         <Grid container spacing={2}>
           <Grid xs={12} sm={12} md={12} lg={3} className='card-left'>
-            <p className='card-date'>10.2022 —— 04.2023</p>
+            <p className='card-date'>10.2022 - 04.2023</p>
             <p>Rostock, Germany</p>
           </Grid>
           <Grid xs={12} sm={12} md={12} lg={9} className='card-right'>
@@ -127,7 +127,7 @@ const WorkExp = () => {
       <Box sx={{ flexGrow: 1 }} className="exp-card">
         <Grid container spacing={2}>
           <Grid xs={12} sm={12} md={12} lg={3} className='card-left'>
-            <p className='card-date'>10.2020 —— 08.2021</p>
+            <p className='card-date'>10.2020 - 08.2021</p>
             <p>Karachi, Pakistan</p>
           </Grid>
           <Grid xs={12} sm={12} md={12} lg={9} className='card-right'>

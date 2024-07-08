@@ -1,14 +1,16 @@
 section#work-exp{
-    padding-top: 100px;
+    padding-top: 70px;
     flex-direction: row;
-    font-family: 'Space Mono', monospace;
+    /* font-family: 'Space Mono', monospace; */
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
 }
 
 div.exp-card{
     padding: 5px;
     padding-left: 10px;
     margin-top: 10px;
-    display: flex;
+    /* display: flex; */
     width: 100%;
 }
 
@@ -23,9 +25,9 @@ div.exp-card:hover{
 }
 
 div.card-left{
-    /* width: 30%; */
     color: var(--font-white);
     padding: 1em;
+    font-size: 1em;
 }
 
 div.card-left>p.card-date{
@@ -33,11 +35,10 @@ div.card-left>p.card-date{
 }
 
 div.card-right{
-    /* width: 70%; */
     color: var(--font-white);
     border: none;
-    text-align: justify;
 }
+
 div.card-right>div.ui.card>div.content{
     /* padding-top: 0px; */
     padding-bottom: 0px;
@@ -49,6 +50,7 @@ div.card-right>div.ui.card>.content.description>#list{
 } 
 
 div.card-right>div.ui.card>.content.description>#list>li{ 
+    font-size: 1em;
     list-style: none; 
     position: relative;
     padding-left: 30px;
@@ -71,6 +73,8 @@ div.card-right>.ui.card{
 }
 
 div.card-right>div.ui.card>div.content>div.header{
+    letter-spacing: 0.2px;
+    font-size: 1.4em;
     color: var(--light-yellow);
 }
 
@@ -88,7 +92,6 @@ div.card-right>div.ui.card>.content>.description{
 
 div.card-right>div.ui.card>.content.card-techs{
     margin-top: 0px;
-    padding-left: calc(1em + 30px);
     display: flex;
     flex-wrap: wrap;
 }

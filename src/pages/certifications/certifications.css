@@ -1,0 +1,7 @@
+section#certifications{
+  padding-top: 70px;
+  flex-direction: row;
+  /* font-family: 'Space Mono', monospace; */
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
