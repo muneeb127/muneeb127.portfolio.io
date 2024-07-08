@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.425bd125.css",
-    "main.js": "/portfolio/static/js/main.c497ffa0.js",
+    "main.css": "/portfolio/static/css/main.b458b805.css",
+    "main.js": "/portfolio/static/js/main.ff5ed452.js",
     "static/media/brand-icons.svg": "/portfolio/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/portfolio/static/media/icons.62d9dae4e0040e81c980.svg",
     "static/media/travis.png": "/portfolio/static/media/travis.3d547207661ed0683a14.png",
@@ -28,12 +28,13 @@
     "static/media/css.png": "/portfolio/static/media/css.58dfbebae4a02001b50e.png",
     "static/media/outline-icons.woff": "/portfolio/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/portfolio/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
+    "static/media/aws.jpg": "/portfolio/static/media/aws.4d25387da50edd8f4e6f.jpg",
     "index.html": "/portfolio/index.html",
-    "main.425bd125.css.map": "/portfolio/static/css/main.425bd125.css.map",
-    "main.c497ffa0.js.map": "/portfolio/static/js/main.c497ffa0.js.map"
+    "main.b458b805.css.map": "/portfolio/static/css/main.b458b805.css.map",
+    "main.ff5ed452.js.map": "/portfolio/static/js/main.ff5ed452.js.map"
   },
   "entrypoints": [
-    "static/css/main.425bd125.css",
-    "static/js/main.c497ffa0.js"
+    "static/css/main.b458b805.css",
+    "static/js/main.ff5ed452.js"
   ]
 }
