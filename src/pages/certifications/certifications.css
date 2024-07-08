@@ -5,3 +5,22 @@ section#certifications{
   font-family: "Inter", sans-serif;
   font-weight: 300;
 }
+
+
+div.exp-card>div.card-right>div.ui.card>.content.card-techs>div{
+  margin: 5px;
+  padding: 1px 15px;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  color: var(--light-yellow);
+  font-weight: bold;
+  /* background-color: #ffe600; */
+
+  /* From https://css.glass */
+  background: rgba(253, 223, 140, 0.51);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.1px);
+  -webkit-backdrop-filter: blur(2.1px);
+  border: 1px solid rgba(253, 223, 140, 0.28);
+}

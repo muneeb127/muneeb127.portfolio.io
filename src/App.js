@@ -20,7 +20,7 @@ function App() {
     return (
         <BrowserRouter>
             <div className="app">
-                <AnimatedCursor
+                {/* <AnimatedCursor
                     innerSize={20}
                     outerSize={100}
                     color="253, 223, 140"
@@ -40,7 +40,7 @@ function App() {
                         "button",
                         ".link",
                     ]}
-                />
+                /> */}
                 <Container maxWidth="lg">
                     <Box sx={{ flexGrow: 1 }}>
                         <Grid container spacing={2}>

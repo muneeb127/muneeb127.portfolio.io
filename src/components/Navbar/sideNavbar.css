@@ -65,34 +65,9 @@ div.main-headers>p{
     color: var(--font-white);
 }
 
-
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-    .ui.vertical.tabular.menu {
-        display: none;
-    }
-} */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (max-width: 768px) {
-    .ui.vertical.tabular.menu {
-        display: none;
-    }
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (max-width: 768px) {
-    .ui.vertical.tabular.menu {
-        display: none;
-    }
-} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (max-width: 992px) {
-    .ui.vertical.tabular.menu {
-        display: none;
-    }
-}    */
+div.main-headers>div.sidebar-footer>svg{
+    padding-right: 10px;
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 1200px) {
@@ -102,7 +77,9 @@ div.main-headers>p{
     }
     .ui.vertical.tabular.menu {
         display: none;
-        
+    }
+    div.sidebar>div.sidebar-footer{
+        position:static;
     }
 }   
 

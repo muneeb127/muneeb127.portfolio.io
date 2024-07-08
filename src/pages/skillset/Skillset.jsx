@@ -27,16 +27,10 @@ const Skillset = () => {
             {/* <h1>Skill Set</h1> */}
             <Box sx={{ flexGrow: 1 }} className="skill-card">
                 <Grid container spacing={2}>
-                    <Grid xs={12} sm={12} md={12} lg={3} className="skill-left">
+                    <Grid xs={12} sm={12} md={3} lg={3} className="skill-left">
                         <p className="skill-type">Programming Languages</p>
                     </Grid>
-                    <Grid
-                        xs={12}
-                        sm={12}
-                        md={12}
-                        lg={9}
-                        className="skill-right"
-                    >
+                    <Grid xs={12} sm={12} md={9} lg={9} className="skill-right">
                         <Card>
                             <CardContent className="card-skills">
                                 {/* <img src="../../imgs/skills/html.jpg" alt="HTML logo" /> */}
@@ -87,16 +81,10 @@ const Skillset = () => {
             </Box>
             <Box sx={{ flexGrow: 1 }} className="skill-card">
                 <Grid container spacing={2}>
-                    <Grid xs={12} sm={12} md={12} lg={3} className="skill-left">
+                    <Grid xs={12} sm={12} md={3} lg={3} className="skill-left">
                         <p className="skill-type">Libraries</p>
                     </Grid>
-                    <Grid
-                        xs={12}
-                        sm={12}
-                        md={12}
-                        lg={9}
-                        className="skill-right"
-                    >
+                    <Grid xs={12} sm={12} md={9} lg={9} className="skill-right">
                         <Card>
                             <CardContent className="card-skills">
                                 {/* <img src="../../imgs/skills/html.jpg" alt="HTML logo" /> */}
@@ -131,16 +119,10 @@ const Skillset = () => {
             </Box>
             <Box sx={{ flexGrow: 1 }} className="skill-card">
                 <Grid container spacing={2}>
-                    <Grid xs={12} sm={12} md={12} lg={3} className="skill-left">
+                    <Grid xs={12} sm={12} md={3} lg={3} className="skill-left">
                         <p className="skill-type">Databases</p>
                     </Grid>
-                    <Grid
-                        xs={12}
-                        sm={12}
-                        md={12}
-                        lg={9}
-                        className="skill-right"
-                    >
+                    <Grid xs={12} sm={12} md={9} lg={9} className="skill-right">
                         <Card>
                             <CardContent className="card-skills">
                                 {/* <img src="../../imgs/skills/html.jpg" alt="HTML logo" /> */}
@@ -175,16 +157,10 @@ const Skillset = () => {
             </Box>
             <Box sx={{ flexGrow: 1 }} className="skill-card">
                 <Grid container spacing={2}>
-                    <Grid xs={12} sm={12} md={12} lg={3} className="skill-left">
+                    <Grid xs={12} sm={12} md={3} lg={3} className="skill-left">
                         <p className="skill-type">Tools</p>
                     </Grid>
-                    <Grid
-                        xs={12}
-                        sm={12}
-                        md={12}
-                        lg={9}
-                        className="skill-right"
-                    >
+                    <Grid xs={12} sm={12} md={9} lg={9} className="skill-right">
                         <Card>
                             <CardContent className="card-skills">
                                 <div>
