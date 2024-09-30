@@ -17,7 +17,7 @@ const Projects = () => {
                     </Grid>
                     <Grid xs={12} sm={12} md={9} lg={9} className="card-right">
                         <Card>
-                            <CardContent header="Web-base data management system for maritime device data access"></CardContent>
+                            <CardContent header="Web-based data management system for maritime device data access"></CardContent>
                             <CardContent className="description card-details">
                                 <ul id="list">
                                     <li>
